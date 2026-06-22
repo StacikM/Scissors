@@ -28,6 +28,9 @@ public final class PaperCommands {
         COMMANDS.put("seen", new SeenCommand("seen"));
         COMMANDS.put("playtime", new PlaytimeCommand("playtime"));
         COMMANDS.put("invsee", new InvSeeCommand("invsee"));
+        COMMANDS.put("controlpanel", new ControlPanelCommand("controlpanel"));
+
+        io.papermc.paper.gui.GuiApi.init();
 
         COMMANDS.forEach((s, command) -> {
             server.server.getCommandMap().register(s, "Paper", command);
