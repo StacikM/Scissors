@@ -44,7 +44,7 @@ How To (Server Admins)
 Download a Scissors jar from the [Releases](https://github.com/StacikM/Scissors/releases) page and run it like any other Paper jar.
 
 ```
-java -Xms4G -Xmx4G -jar scissors-*.jar nogui
+java -Xms4G -Xmx4G -jar (file).jar nogui
 ```
 
 * Documentation on using Paper (applies to Scissors): [docs.papermc.io](https://docs.papermc.io)
